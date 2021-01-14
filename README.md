@@ -1,5 +1,6 @@
 # goit-markup-hw-05
 https://zobovaa.github.io/goit-markup-hw-05/
+<<<<<<< HEAD
 
 Дополнительные критерии
 Создан репозиторий goit-markup-hw-05.
@@ -43,3 +44,5 @@ data-modal - на бекдроп модального окна
     refs.modal.classList.toggle('is-hidden');
   }
 })();
+=======
+>>>>>>> c2212881ea0160aadfb849a8f950a31a2997ff52
