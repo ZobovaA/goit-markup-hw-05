@@ -1,6 +1,6 @@
 # goit-markup-hw-05
 https://zobovaa.github.io/goit-markup-hw-05/
-<<<<<<< HEAD
+ HEAD
 
 Дополнительные критерии
 Создан репозиторий goit-markup-hw-05.
@@ -23,26 +23,4 @@ data-modal - на бекдроп модального окна
 После чего, перед закрывающим тегом body добавить тег script со ссылкой на файл скрипта для модально окна. Можно посмотреть видеоинструкцию.
 
 
-  <!-- Вся твоя разметка, включая разметку модалки -->
-
-  <!-- Ставим перед закрывающим тегом body -->
   
-
-Вот скрипт который необходимо скопировать и вставить в файл скрипта modal.js.
-
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
-
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
-
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
-=======
->>>>>>> c2212881ea0160aadfb849a8f950a31a2997ff52
