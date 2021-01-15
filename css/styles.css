@@ -87,6 +87,8 @@ header {
   line-height: 1.14;
   color: var(--main-fonts-color);
   padding: 32px 0;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-links::after {
@@ -111,6 +113,9 @@ header {
 .header-links:hover {
   color: var(--accent-color);
 }
+
+/*анимация*/
+
 /*Hero section*/
 .hero {
   background-color: #2f303a;
@@ -356,6 +361,10 @@ button:hover {
 
 /*надпись для карточек "чем мы занимаеся"*/
 
+/*анимация*/
+
+
+
 .wedo-overlay {
   position: absolute;
   width: 100%;
@@ -515,6 +524,8 @@ button:hover {
 .descrip-portfolio {
   padding-bottom: 4px;
 }
+/* анимация*/
+
 
 /*портфолио оверлей*/
 
