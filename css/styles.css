@@ -57,7 +57,7 @@ body {
 }
 
 .colortext_bottom {
-  color: var(--main-bck-color);
+  color: #ffffff;
 }
 .colortext {
   color: black;
