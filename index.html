@@ -68,7 +68,7 @@
       <section class="hero">
         <div class="container-hero overlay">
           <h1 class="hero-h">Эффективные решения для вашего бизнеса</h1>
-          <button class="button-hero">Заказать услугу</button>
+          <button data-modal-open class="button-hero">Заказать услугу</button>
         </div>
       </section>
 
@@ -433,6 +433,7 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
+    <div data-modal class="backdrop is-hidden"><div class="modal"><button data-modal-close >Закрыть</button></div></div>
+     <script src="./js/modal.js"></script>
   </body>
 </html>
