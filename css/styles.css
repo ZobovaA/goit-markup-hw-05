@@ -408,7 +408,6 @@ button:hover {
 }
 
 .footer {
-  align-items: baseline;
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
@@ -711,7 +710,7 @@ color: #FFFFFF;
 }
 .footer-main {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 
 .clients-list-f {
