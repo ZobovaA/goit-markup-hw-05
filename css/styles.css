@@ -84,8 +84,6 @@ header {
   color: var(--accent-color);
 }
 
-
-
 .header-links {
   position: relative;
   font-weight: 500;
@@ -113,7 +111,7 @@ header {
 }
 
 .header-links:focus::after,
-.header-links:hover::after  {
+.header-links:hover::after {
   opacity: 1;
 }
 .header-links:focus,
@@ -179,7 +177,6 @@ header {
 }
 /*Styles for buttons*/
 
-
 .button-hero {
   border-radius: 4px;
   border: 0 solid transparent;
@@ -212,13 +209,12 @@ header {
   cursor: pointer;
 
   transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 
 button:focus,
 button:hover {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
   background: var(--accent-color);
 }
@@ -269,7 +265,7 @@ button:hover {
   color: var(--secondary-fonts-color);
 }
 
-.name-exp{
+.name-exp {
   padding-top: 30px;
   padding-bottom: 16px;
 }
@@ -364,7 +360,6 @@ button:hover {
 }
 
 .title-name {
-  
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
@@ -376,8 +371,6 @@ button:hover {
 /*надпись для карточек "чем мы занимаеся"*/
 
 /*анимация*/
-
-
 
 .wedo-overlay {
   position: absolute;
@@ -400,11 +393,10 @@ button:hover {
 }
 
 .we-do {
-  
   position: relative;
 }
 
-.img{
+.img {
   display: block;
 }
 /*footer*/
@@ -542,10 +534,9 @@ button:hover {
 }
 /* анимация*/
 
-
 /*портфолио оверлей*/
 
-.port-overlay{
+.port-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -565,25 +556,19 @@ button:hover {
   font-family: Roboto;
   font-weight: normal;
 
+  letter-spacing: 0.03em;
 
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
-  
+  color: #ffffff;
 }
 
-.potfol-images{
+.potfol-images {
   position: relative;
   overflow: hidden;
-
-
 }
 .card-set-link:focus .port-overlay,
-.card-set-link:hover .port-overlay{
+.card-set-link:hover .port-overlay {
   transform: translateY(0);
 }
-
-
 
 /* Icons*/
 .social-list {
@@ -608,12 +593,10 @@ color: #FFFFFF;
   border-radius: 50%;
   color: #afb1b8;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .master-link:hover,
 .master-link:focus {
-  
   background-color: var(--accent-color);
   color: #ffffff;
 }
@@ -644,7 +627,7 @@ color: #FFFFFF;
   color: #afb1b8;
   border: currentColor 1px solid;
   border-radius: 4%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-clients {
@@ -732,7 +715,6 @@ color: #FFFFFF;
   color: #ffffff;
 }
 
-
 .link-header {
   display: inline-flex;
   justify-content: center;
@@ -760,17 +742,16 @@ color: #FFFFFF;
   color: var(--accent-color);
 }
 .current::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px 2px;
-    background-color: var(--accent-color);
-    opacity: 1;
-  
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px 2px;
+  background-color: var(--accent-color);
+  opacity: 1;
 
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
