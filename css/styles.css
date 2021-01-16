@@ -97,7 +97,7 @@ header {
 .header-links::after {
   content: "";
   position: absolute;
-  bottom: -1px;
+  bottom: -2px;
   left: 0;
   display: block;
   width: 100%;
