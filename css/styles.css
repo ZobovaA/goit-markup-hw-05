@@ -64,7 +64,7 @@ body {
 }
 
 header {
-  padding-bottom: 24px;
+  /* padding-bottom: 24px; */
   padding-top: 25px;
   background: #ffffff;
   border: 1px solid #ececec;
@@ -86,6 +86,7 @@ header {
 
 .header-links {
   position: relative;
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -98,7 +99,7 @@ header {
 .header-links::after {
   content: "";
   position: absolute;
-  bottom: 0.5px;
+  bottom: -1px;
   left: 0;
   display: block;
   width: 100%;
@@ -781,6 +782,7 @@ header {
   top: 50%;
   transform: translate(-50%, -50%) scaleX(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .backdrop.is-hidden.modal{
