@@ -788,13 +788,24 @@ header {
 }
 .button-close{
   position: absolute;
-  top: 0;
-  right: 0;
-  padding-right: 8px;
-  padding-top: 8px;
-  border:0px;
-  background-color: #ffffff;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1); 
+  border-radius: 50%;
+  cursor: pointer;
 }
+.icon-close {
+  width: 11px;
+  height: 11px;
+  fill:currentColor;
+}
+
 
 .is-hidden{
   opacity: 0;
